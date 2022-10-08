@@ -9,48 +9,72 @@
     <!-- título de página -->
     <title>RESTAURANTE ALMANSA</title>
     <!-- ícono de pàgina -->
+    <script src="https://kit.fontawesome.com/bd39dead71.js" crossorigin="anonymous"></script>
     <!-- fuentes -->
-    <!-- javascript -->
 
 </head>
-<body>
   <div class="nav flex">
-    <a href="">HOME</a>
-    <a href="">MENU</a>
-    <a href="">ABOUT</a>
-    <a href="">CONTACT</a>
+    <a href=""><i class="fa-solid fa-house"></i> HOME</a>
+    <a href="imagenes/Menu.pdf"><i class="fa-solid fa-utensils"></i> MENU</a>
+    <a href=""><i class="fa-solid fa-user"></i> ABOUT</a>
+    <a href="https://wa.me/694467325"><i class="fa-brands fa-whatsapp"></i> CONTACT</a>
   </div>
+
+  <div class="container-fotos">
+    <div class="slider" id="slider">
+      <!-- FOTO 1 -->
+      <div class="diapositivas">
+        <img class="fotos" src="imagenes/1.jpg">
+      </div>
+      <!-- FOTO 2 -->
+      <div class="diapositivas">
+        <img class="fotos" src="imagenes/2.jpg">
+      </div>
+      <!-- FOTO 3 -->
+      <div class="diapositivas">
+        <img class="fotos" src="imagenes/3.jpg">
+      </div>
+    </div>
+    <div class="botonSlider btnLeft" id="btnLeft">&#60</div>
+    <div class="botonSlider btnRight" id="btnRight">&#62</div>
+   <script src="js/app.js"></script>
+  </div>
+  <br>
   
-  <div class="slideshow-container">
-    <div class="diapositivas fade">
-      <img class="fotos" src="imagenes/1.png">
-    </div>
-    
-    <div class="diapositivas fade">
-      <img class="fotos" src="imagenes/2.png">
-    </div>
-    
-    <div class="diapositivas fade">
-      <img class="fotos" src="imagenes/3.png">
-    </div>
-  </div>
-   <br>
-    
-<script src="js/app.js"></script>
+
 <div class="anuncios">
-
-  <div class="caja1">
-    <h3 style="text-align: center">AAAAAAAAAAAAAAAAAA</h3>
-  <img src="" alt="">
+  <div class="seccion flex">
+    <div class="caja1">
+      <img src="imagenes/pan.jpg" class="foto1 flex"alt=""><br>
+      <h3 style="text-align: center">El concepto que nos hace únicos</h3>
+      <p style="padding: 3%;">La calidad y la originalidad son marca de la casa. Una de las claves del éxito de la
+        carta es el pan de receta patentada y que además se hornea en el momento en el
+        que el cliente hace el pedido.
+        </p>
+    </div>
+    <div class="caja2">
+      <img src="imagenes/6.jpg" class="foto1 flex"alt=""><br>
+      <h3 style="text-align: center">Almansa</h3>
+      <p style="padding: 3%;">Almansa es un espacio que fundamos con la idea de disfrutar de los pequeños
+        placeres que nos hacen felices: la cerveza, los amigos, los buenos snacks y la
+        buena música.</p>
+      </div>
+    </div>
   </div>
-  <div class="caja2">
-    <h3 style="text-align: center">BBBBBBBBBBBBBBBBB</h3>
-    <img src="" alt="">
+  <div class="seccion flex">
+    <div class="caja1">
+      <img src="imagenes/4.jpg" class="foto1 flex"alt=""><br>
+      <h3 style="text-align: center">Horario</h3>
+      <p style="padding: 3%;">Abrimos de martes a domingo</p>
+    </div>
+    <div class="caja2">
+      <iframe class="foto1"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121490.1276497366!2d-1.7156990767427491!3d40.17946435396323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bf33bd617099%3A0x91916cb0f968b736!2sBar%20restaurante%20Almansa!5e0!3m2!1sca!2ses!4v1664883410076!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+      <h3 style="text-align: center">¿Dónde estamos ubicados?</h3>
+      <p style="padding: 3%;">Carrer del Bosc, 08521 Bellavista, Barcelona
+      </p>
+    </div>
   </div>
-<br>
 </div>
-
-
 <footer class="footer">
   <div class="container">
     <div class="row">
